@@ -1,0 +1,43 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #0188a5, #82bec9);
+  padding: 3.2rem;
+}
+
+.socialMedia ul {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.socialMedia ul li img {
+  width: 2rem;
+}
+
+.logo  img {
+  width: 10rem;
+}
+
+.dev {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding-inline: 1.2rem;
+  }
+
+  .socialMedia ul li img {
+    width: 1.5rem;
+  }
+
+  .logo  img {
+    width: 7rem;
+  }
+  .dev {
+    font-size: 1.2rem;
+  }
+}

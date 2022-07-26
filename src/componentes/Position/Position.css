@@ -1,0 +1,12 @@
+.position {
+  text-align: center;
+  padding: 3.2rem;
+}
+
+.position h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  border-bottom: 4px solid;
+  display: inline-block;
+  padding-bottom: 0.95rem;
+}

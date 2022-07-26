@@ -1,0 +1,59 @@
+.players {
+  display: flex;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+  margin-top: 3.2rem;
+}
+
+.players .playersCard {
+  width: 28rem;
+}
+
+.players .header {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.players img {
+  width: 10rem;
+  border-radius: 50%;
+  position: relative;
+  top: 5rem;
+}
+
+.players .description {
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0,0,0, 0.08);
+  border-radius: 0 0 1rem 1rem;
+  padding: 7rem 0 4rem 0;
+}
+
+.players .description h4 {
+  color: #0188a5;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.players .description h5 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #212121;
+  padding: 0 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .players .playersCard {
+    width: 14rem;
+  }
+
+  .players img {
+    width: 7rem;
+    top: 4rem;
+  }
+
+  .players .description h4,
+  .players .description h5 {
+    font-size: 1.2rem;
+  }
+}

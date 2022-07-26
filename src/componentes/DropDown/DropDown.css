@@ -1,0 +1,19 @@
+.DropDown label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #212121;
+}
+
+.DropDown select {
+  width: 100%;
+  background-color: #fff;
+  padding: 2.4rem;
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+  color: #a4a4a4;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.06);
+  transition: outline 100ms linear;
+}
