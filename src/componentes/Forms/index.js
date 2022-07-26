@@ -19,16 +19,6 @@ const Forms = props => {
     setName('')
     setTeam('')
     setImage('')
-    console.log(
-      'Nome:',
-      name,
-      'Time:',
-      team,
-      'Imagem:',
-      image,
-      'Posição:',
-      position
-    )
   }
 
   return (
