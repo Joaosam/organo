@@ -52,8 +52,13 @@
     top: 4rem;
   }
 
+  .players .description {
+    padding: 5.5rem 0 2rem 0;
+  }
+
   .players .description h4,
   .players .description h5 {
     font-size: 1.2rem;
   }
+
 }
