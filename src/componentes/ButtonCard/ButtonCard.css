@@ -1,16 +1,25 @@
-.button {
-  background-color: #51b8ca;
+.button,
+.buttonEnable {
   color: #fff;
   font-weight: 700;
   font-size: 1.8rem;
   border-radius: 1rem;
   padding: 2.8rem 2.9rem;
   border: none;
-  cursor: pointer;
   transition: .5s;
   margin-top: 4rem;
 }
 
-.button:hover {
+.button {
+  background-color: #a5cbd1;
+  cursor: not-allowed;
+}
+
+.buttonEnable {
+  background-color: #5095a5;
+  cursor: pointer;
+}
+
+.buttonEnable:hover {
   background-color: #0188a5;  
 }

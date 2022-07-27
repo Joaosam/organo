@@ -19,6 +19,7 @@ const Forms = props => {
     setName('')
     setTeam('')
     setImage('')
+    setPosition('')
   }
 
   return (
@@ -44,17 +45,19 @@ const Forms = props => {
         <FieldText
           label="Imagem"
           placeholder="Informe o endereço da imagem"
+          mandatory={true}
           changed={valueChanged => setImage(valueChanged)}
           valueChanged={image}
         />
         <DropDown
           label="Posição"
           options={props.position}
-          mandatory={true}
           changed={valueChanged => setPosition(valueChanged)}
           valueChanged={position}
         />
-        <ButtonCard>Criar card</ButtonCard>
+        <ButtonCard name={name} team={team} image={image} position={position}>
+          Criar card
+        </ButtonCard>
       </form>
     </section>
   )

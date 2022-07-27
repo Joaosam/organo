@@ -1,7 +1,6 @@
 import './FieldText.css'
 
 const FieldText = props => {
-  console.log('PRPOS =>', props)
   const inputText = event => {
     props.changed(event.target.value)
   }
